@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/filip/RTS-Project/main.cpp
+iostream
+-
+stdio.h
+-
+pthread.h
+-
+opencv4/opencv2/core.hpp
+-
+
